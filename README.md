@@ -4,15 +4,15 @@ A Discord bot to choose a country at random and provide simple stuff such as the
 ## Setup
 My preferred setup is via Docker:
 ``` shell
-docker pull ghrc.io/SolarWolf-Code/CultureBot:latest
+docker pull ghcr.io/solarwolf-code/culturebot:latest
 docker run -d \
-    --name CultureBot \
+    --name culturebot \
     -e GUILD_ID=YOUR_DISCORD_SERVER_ID \
     -e TOKEN=YOUR_DISCORD_BOT_TOKEN \
-    ghrc.io/SolarWolf-Code/CultureBot:latest
+    ghcr.io/solarwolf-code/culturebot:latest
 ```
 
-Or you can clone this repo locally:
+Or you can clone this repo locally via Python:
 ``` shell
 git clone https://github.com/SolarWolf-Code/CultureBot.git  
 pip install -r requirements.txt  
