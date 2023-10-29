@@ -48,7 +48,7 @@ def random_country_embed():
 
 @tree.command(name="rc", description="Picks a random country", guild=discord.Object(id=GUILD_ID))
 async def random_country(interaction):
-    await interaction.response.send_message(embed=random_country_embed())
+    await interaction.response.send_message("@everyone This week's country is...", embed=random_country_embed())
 
 @tree.command(name="reset", description="Recreates the country csv file", guild=discord.Object(id=GUILD_ID))
 async def reset_csv(interaction):
