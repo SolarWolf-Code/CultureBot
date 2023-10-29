@@ -24,7 +24,7 @@ python3 culture_bot.py
 
 ## How it works
 When you get your bot up, it will have a csv file that it pulls the data from. This csv file was created using the [RESTContries
-](https://restcountries.com/) REST API.
+](https://restcountries.com/) REST API. When your bot picks a random country from the file, it will remove it. This prevents the chance of getting it twice.
 
 
 ## Commands
