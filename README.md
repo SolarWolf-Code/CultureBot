@@ -28,7 +28,7 @@ When you get your bot up, it will have a csv file that it pulls the data from. T
 
 
 ## Commands
-`/rc` - Picks a random country and provides basic information about it.
+`/rc` - Picks a random country and provides basic information about it.  
 `/reset` - Resets the list of countries within the csv file.
 
 ## Personal Use
